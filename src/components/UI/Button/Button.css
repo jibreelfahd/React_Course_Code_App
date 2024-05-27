@@ -1,0 +1,20 @@
+.goal__button button{
+  padding: 0.5rem 1.5rem;
+  background: #8b005d;
+  border: 1px solid #8b005d;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  font: inherit;
+}
+
+.goal__button button:focus {
+  outline: none;
+}
+
+.goal__button button:hover,
+.goal__button button:active {
+  background: #ac0e77;
+  border-color: #ac0e77;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}

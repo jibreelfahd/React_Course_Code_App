@@ -1,0 +1,26 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.form-control label {
+  font: inherit;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0 0.25;
+  border: 1px solid #ccc;
+  line-height: 1.5rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
